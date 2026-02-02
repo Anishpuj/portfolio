@@ -1,6 +1,15 @@
 # Anish Pujari - Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=web)](https://anish.live)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Anishpuj/portfolio)
+
 A modern, performance-driven portfolio website built with React, TypeScript, and Vite. Features smooth page transitions, an infinite image carousel showcasing web development projects, and a cinematic loading experience.
+
+## 🌐 Live Preview
+
+**Check out the live portfolio**: [**anish.live**](https://anish.live)
+
+---
 
 ## ✨ Features
 
@@ -92,6 +101,11 @@ portfolio/
 - Smooth fade-out effect
 
 ## 🌐 Deployment
+
+### 🚀 Live Website
+- **Portfolio URL**: [**anish.live**](https://anish.live)
+- **Status**: ✅ Live and active
+- **Host**: Static hosting with optimized performance
 
 The portfolio is optimized for deployment on any static hosting platform:
 
