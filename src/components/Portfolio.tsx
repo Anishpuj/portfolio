@@ -17,27 +17,6 @@ function Portfolio() {
     url: '/Anish_RESUME_AI.pdf', // Update this with actual resume file path
   };
 
-  const currentSections = [
-    {
-      number: '01',
-      title: 'Founder CEO @ TradeX',
-      url: 'https://www.tradex.org.in',
-      description: 'A Wealth Management Organisation that use Quantitative Algorithmic Strategies built to beat the Market BenchMarks',
-      update: 'Raised $5,00,000 - 0.5Mil$ AUM'
-    },
-    {
-      number: '02',
-      title: 'Advising member @ JournalPlus',
-      url: 'https://journalplus.co',
-      description: 'JournalPlus is a simple, AI-powered trading journal for retail and swing traders. We help traders track trades, analyze performance, and improve trading discipline with lifetime access.'
-    },
-    {
-      number: '03',
-      title: 'Crypto Mining Facility',
-      description: 'Currently Building my Private Crypto Mining Facility and turning it out P2P level selling Organisation'
-    }
-  ];
-
   const pastMilestones = [
     {
       year: '2025',
@@ -191,53 +170,13 @@ function Portfolio() {
             
             {/* Copyright */}
             <div className="text-xs text-white mt-64">
-              © 2025 <span style={{ fontFamily: 'Instrument Serif, serif', fontStyle: 'italic' }}>Anish Pujari</span>. All rights reserved.
+              2025 <span style={{ fontFamily: 'Instrument Serif, serif', fontStyle: 'italic' }}>Anish Pujari</span>. All rights reserved.
             </div>
           </div>
           
           {/* Center Column */}
           <div className="lg:col-span-5 space-y-6 sm:space-y-8">
-            <h2 className="text-3xl sm:text-4xl font-serif text-white flex items-center">
-              Currently
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" className="inline h-3 w-3 ml-1 -mt-0.5">
-                <path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"></path>
-              </svg>
-            </h2>
-            <div className="space-y-6">
-              {currentSections.map((section) => (
-                <div key={section.number} className="space-y-2">
-                  <div className="flex items-center space-x-3">
-                    <span className="text-gray-400 text-base">{section.number}</span>
-                    <h3 className="text-base text-white">
-                      {section.url ? (
-                        <>
-                          <span style={{ color: 'white' }}>{section.title.split(' @ ')[0]} @ </span>
-                          <a 
-                            href={section.url} 
-                            className="underline transition-colors" 
-                            style={{ color: '#9CA3AF' }}
-                          >
-                            <EncryptedText text={section.title.split(' @ ')[1]} />
-                          </a>
-                        </>
-                      ) : (
-                        <span style={{ color: 'white' }}>{section.title}</span>
-                      )}
-                    </h3>
-                  </div>
-                  <p className="text-sm text-white ml-8 leading-relaxed">
-                    {section.description}
-                    {section.update && (
-                      <span className="italic text-gray-400 ml-2">
-                        ({section.update})
-                      </span>
-                    )}
-                  </p>
-                </div>
-              ))}
-            </div>
-            
-            <div className="pt-12">
+            <div className="pt-2">
               <h2 className="text-3xl sm:text-4xl font-serif text-white flex items-center mb-8">
                 SideHustle
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" className="inline h-3 w-3 ml-1 -mt-0.5">
@@ -248,19 +187,12 @@ function Portfolio() {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-3">
                     <span className="text-gray-400 text-base">01</span>
-                    <h3 className="text-base text-white">
-                      Web Development Services
-                    </h3>
+                    <h3 className="text-base text-white">Web Development Services</h3>
                   </div>
                   <p className="text-sm text-white ml-8 leading-relaxed">
                     I Sometime build modern, performance-driven websites for people who need clarity, speed, and results—not complexity.
                     <span className="text-gray-400"> (</span>
-                    <Link 
-                      to="/website-works" 
-                      className="text-gray-400 hover:text-white transition-colors underline"
-                    >
-                      Check My Work
-                    </Link>
+                    <Link to="/website-works" className="text-gray-400 hover:text-white transition-colors underline">Check My Work</Link>
                     <span className="text-gray-400">)</span>
                   </p>
                 </div>
